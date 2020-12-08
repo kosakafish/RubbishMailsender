@@ -20,9 +20,9 @@ async function sendMail(text){
     );
     let info = await trans.sendMail(
         {
-            from: `亲爱的老公<${user}>`, // sender address
-            to: `亲爱的老婆<${receiver}>`, // list of receivers
-            subject: "亲爱的老婆", // Subject line
+            from: `老公<${user}>`, // sender address
+            to: `老婆<${receiver}>`, // list of receivers
+            subject: "老婆", // Subject line
             text: text, // plain text body
         
         }
